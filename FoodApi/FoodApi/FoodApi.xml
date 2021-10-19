@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodApi</name>
+    </assembly>
+    <members>
+        <member name="M:FoodApi.Controllers.CategoriesController.Get">
+            <summary>
+            Get All Category
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FoodApi.Controllers.CategoriesController.Get(System.Int32)">
+            <summary>
+            Get By Category
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FoodApi.Controllers.CategoriesController.Post(FoodShared.Models.Category)">
+            <summary>
+            Pos Category
+            </summary>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
