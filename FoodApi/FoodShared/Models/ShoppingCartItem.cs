@@ -8,6 +8,7 @@ namespace FoodShared.Models
 {
     public class ShoppingCartItem
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public double Price { get; set; }     
         public int Qty { get; set; }

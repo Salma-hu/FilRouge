@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Mime;
+using FoodShared.Dto;
 
 namespace FoodApi.Controllers
 {
@@ -73,18 +74,21 @@ namespace FoodApi.Controllers
 
         // POST: api/ShoppingCartItems
         [HttpPost]
-        public IActionResult Post([FromBody] ShoppingCartItem shoppingCartItem)
+        public IActionResult Post([FromBody] ShoppingCartItemDto shoppingCartItem)
         {
             var shoppingCart = _dbContext.ShoppingCartItems.FirstOrDefault(s => s.ProductId == shoppingCartItem.ProductId && s.CustomerId == shoppingCartItem.CustomerId);
             if (shoppingCart != null)
             {
                 shoppingCart.Qty += shoppingCartItem.Qty;
                 shoppingCart.TotalAmount = shoppingCart.Price * shoppingCart.Qty;
+                _dbContext.ShoppingCartItems.Update(shoppingCart);
+
             }
             else
             {
                 var sCart = new ShoppingCartItem()
                 {
+                  
                     CustomerId = shoppingCartItem.CustomerId,
                     ProductId = shoppingCartItem.ProductId,
                     Price = shoppingCartItem.Price,
@@ -93,8 +97,8 @@ namespace FoodApi.Controllers
                 };
                 _dbContext.ShoppingCartItems.Add(sCart);
             }
-            _dbContext.SaveChanges();
-            return StatusCode(StatusCodes.Status201Created);
+           
+            return Ok(_dbContext.SaveChanges());
         }
 
         // DELETE: api/ApiWithActions/5

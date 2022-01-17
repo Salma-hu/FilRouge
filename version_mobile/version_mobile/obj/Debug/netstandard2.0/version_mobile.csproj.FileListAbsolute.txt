@@ -1,0 +1,14 @@
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\bin\Debug\netstandard2.0\version_mobile.deps.json
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\bin\Debug\netstandard2.0\version_mobile.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\bin\Debug\netstandard2.0\ref\version_mobile.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\bin\Debug\netstandard2.0\version_mobile.pdb
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\version_mobile.csprojAssemblyReference.cache
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\version_mobile.AssemblyInfoInputs.cache
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\version_mobile.AssemblyInfo.cs
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\version_mobile.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\version_mobile.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\ref\version_mobile.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\version_mobile\version_mobile\obj\Debug\netstandard2.0\version_mobile.pdb

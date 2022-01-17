@@ -26,7 +26,7 @@ namespace FoodClient.Controllers
 
         }
 
-        public IActionResult Index(string id)
+        public ActionResult Index( )
         {
             return View();
 

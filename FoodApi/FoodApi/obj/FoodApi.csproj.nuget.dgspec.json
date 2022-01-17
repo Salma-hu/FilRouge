@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj": {}
+    "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj": {
+    "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj",
+        "projectUniqueName": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj",
         "projectName": "FoodApi",
-        "projectPath": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj",
+        "projectPath": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj",
         "packagesPath": "C:\\Users\\Youcode\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodApi\\obj\\",
+        "outputPath": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj": {
-                "projectPath": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj"
+              "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj": {
+                "projectPath": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj"
               }
             }
           }
@@ -113,18 +113,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj": {
+    "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj",
+        "projectUniqueName": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj",
         "projectName": "FoodShared",
-        "projectPath": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj",
+        "projectPath": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodShared\\FoodShared.csproj",
         "packagesPath": "C:\\Users\\Youcode\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodShared\\obj\\",
+        "outputPath": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodShared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -173,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
         }
       }
     }

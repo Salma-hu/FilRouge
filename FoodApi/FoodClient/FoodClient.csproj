@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FoodApi\FoodApi.csproj" />
     <ProjectReference Include="..\FoodShared\FoodShared.csproj" />
   </ItemGroup>
 

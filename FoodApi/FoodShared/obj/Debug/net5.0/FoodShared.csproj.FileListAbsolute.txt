@@ -10,3 +10,15 @@ C:\Users\Youcode\Desktop\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\Foo
 C:\Users\Youcode\Desktop\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.dll
 C:\Users\Youcode\Desktop\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\ref\FoodShared.dll
 C:\Users\Youcode\Desktop\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.pdb
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\bin\Debug\net5.0\FoodShared.deps.json
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\bin\Debug\net5.0\FoodShared.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\bin\Debug\net5.0\ref\FoodShared.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\bin\Debug\net5.0\FoodShared.pdb
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.AssemblyInfoInputs.cache
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.AssemblyInfo.cs
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.csproj.CoreCompileInputs.cache
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\ref\FoodShared.dll
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.pdb
+C:\Users\Youcode\Desktop\Nouveau dossier\Briefs\FilRouge\FoodApi\FoodShared\obj\Debug\net5.0\FoodShared.csprojAssemblyReference.cache

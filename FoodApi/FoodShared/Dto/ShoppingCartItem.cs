@@ -4,12 +4,12 @@ using System.Text;
 
 namespace FoodShared.Dto
 {
-    public class ShoppingCartItem
+    public class ShoppingCartItemDto
     {
-        public int id { get; set; }
-        public double price { get; set; }
-        public double totalAmount { get; set; }
-        public int qty { get; set; }
-        public string productName { get; set; }
+        public double Price { get; set; }
+        public int Qty { get; set; }
+        public double TotalAmount { get; set; }
+        public int ProductId { get; set; }
+        public int CustomerId { get; set; }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using FoodClient.Services.LocalStorage;
-using FoodShared;
+using FoodShared.Models;
 using FoodShared.Dto;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -10,6 +10,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using FoodShared;
 
 namespace FoodClient.Services
 {
@@ -61,22 +62,22 @@ namespace FoodClient.Services
             await _localStorage.SetItem("currentTime", DateTime.Now);
         }
 
-        public async Task<List<Category>> GetCategories()
+        public async Task<List<FoodShared.Dto.Category>> GetCategories()
         {
             await TokenValidator.CheckTokenValidity();
             var httpClient = new HttpClient();
             //httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await _localStorage.GetItem<string>("accessToken"));
             var response = await httpClient.GetStringAsync(AppSettings.ApiUrl + "/Categories");
-            return JsonConvert.DeserializeObject<List<Category>>(response);
+            return JsonConvert.DeserializeObject<List<FoodShared.Dto.Category>>(response);
         }
 
-        public async Task<Product> GetProductById(int productId)
+        public async Task<FoodShared.Dto.Product> GetProductById(int productId)
         {
             await TokenValidator.CheckTokenValidity();
             var httpClient = new HttpClient();
             //httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await _localStorage.GetItem<string>("accessToken"));
             var response = await httpClient.GetStringAsync(AppSettings.ApiUrl + "/Products/" + productId);
-            return JsonConvert.DeserializeObject<Product>(response);
+            return JsonConvert.DeserializeObject<FoodShared.Dto.Product>(response);
         }
 
         public async Task<List<ProductByCategory>> GetProductByCategory(int categoryId)
@@ -146,7 +147,7 @@ namespace FoodClient.Services
             return true;
         }
 
-        public async Task<OrderResponse> PlaceOrder(Order order)
+        public async Task<OrderResponse> PlaceOrder(FoodShared.Dto.Order order)
         {
             await TokenValidator.CheckTokenValidity();
             var httpClient = new HttpClient();
@@ -167,13 +168,13 @@ namespace FoodClient.Services
             return JsonConvert.DeserializeObject<List<OrderByUser>>(response);
         }
 
-        public async Task<List<Order>> GetOrderDetails(int orderId)
+        public async Task<List<FoodShared.Dto.Order>> GetOrderDetails(int orderId)
         {
             await TokenValidator.CheckTokenValidity();
             var httpClient = new HttpClient();
             //httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", await _localStorage.GetItem<string>("accessToken"));
             var response = await httpClient.GetStringAsync(AppSettings.ApiUrl + "/Orders/OrderDetails/" + orderId);
-            return JsonConvert.DeserializeObject<List<Order>>(response);
+            return JsonConvert.DeserializeObject<List<FoodShared.Dto.Order>>(response);
         }
 
     }

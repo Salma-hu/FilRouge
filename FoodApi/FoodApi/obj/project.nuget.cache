@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GwKkxrL+4vqIR+Ad+78BQOfzeBYG+K3pa0MV/9PZ1AKKZ4nDWJ6hJSRn6d6IfI9yQD52Yw3T0aIZwfOUycjacA==",
+  "dgSpecHash": "rz86tp9MgS3gse5B62Fi0nI1ZWvrsxlUYcnRXRRbSse6K/XkdmkWwbLObd0lKdflqfGa6pSjKM0vDft+bUXUcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Youcode\\Desktop\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj",
+  "projectFilePath": "C:\\Users\\Youcode\\Desktop\\Nouveau dossier\\Briefs\\FilRouge\\FoodApi\\FoodApi\\FoodApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Youcode\\.nuget\\packages\\aspnetcore.authentication.plugin\\1.0.1\\aspnetcore.authentication.plugin.1.0.1.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\aspnetcore.imageuploader\\1.0.0\\aspnetcore.imageuploader.1.0.0.nupkg.sha512",
